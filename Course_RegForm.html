@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitCode-Course Registration</title>
+    <style>
+        fieldset{
+            width:320;
+            margin-left:400px;
+            margin-right:430px;
+            background-color:hotpink;
+        
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>BitCode Technology</legend>
+        <centre>
+            <form>
+                <label>Your Name:</label>
+                <input type="text" name="txtname" placeholder="Enter Name"/>
+                <br><br>
+                <label>Email Id:</label>
+                <input type="email" name="txtemail" placeholder="Enter Email Id"/>
+                <br><br>
+                <label>Password:</label>
+                <input type="password" name="txtpassword" placeholder="Enter password"/>
+                <br><br>
+                <label>Gender:</label>
+                <input type="radio" name="rbtn" value="m"/>Male
+                <input type="radio" name="rbtn" value="f"/>Female
+                <br><br>
+                <label>Current City:</label>
+                <select>
+                    <option>-Select-</option>
+                    <option>Pune</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Nagar</option>
+                    <option>Beed</option>
+                </select> <br><br>
+                <label>Upload Passport Photo:</label>
+                <input type="file" name="fileupload"/>
+                <br><br>
+                <label>Courses Offers:</label><br>
+                <input type="checkbox" name="cj" value="1">Core Java
+                <input type="checkbox" name="Cpp" value="2">C++
+                <input type="checkbox" name="c" value="3">C Programing
+                <input type="checkbox" name="py" value="4">python <br>
+                <input type="checkbox" name="fsj" value="5">Full Stack Java
+                <input type="checkbox" name="fsp" value="6">Full Stack Python <br>
+                <input type="checkbox" name="aap" value="7">Android App Development
+                <input type="checkbox" name="st" value="8">Software Testing
+                <br><br>
+                <label>why you are intrested in this program? :</label><br>
+                <textarea rows="5" cols="40" placehplder="Enter your Description" style="background-color:violet"></textarea>
+                <br><br>
+                <input type="submit" name="btnsubmit" value="Submit" style="background-color: darkgreen">
+                <input type="submit" name="btnupdate" value="Update" style="background-color: maroon">
+                <input type="reset" name="btncancel" value="Cancel" style="background-color:darkviolet;">
+            </form>
+        </centre>
+    </fieldset>
+
+    
+</body>
+</html>
